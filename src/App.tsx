@@ -3,12 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import CounterClass from './components/CounterClass';
 import Calculator from './components/Assignments/Assignment-03/Calculator';
-import IterationArray from './components/Assignments/Assignment-04/IterationArray';
-import FruitClass from './components/Assignments/Assignment-04/FruitClass';
-import CarsClass from './components/Assignments/Assignment-04/CarsClass';
-import Person from './components/Assignments/Assignment-04/Person';
 import { User } from './components/Assignments/Assignment-02/User';
-import Pets from './components/Assignments/Assignment-04/Pets';
 import { useCounterContext } from './components/context/CounterContext';
 import Counter from './components/Counter';
 import CounterFC from './components/CounterFC';
@@ -27,7 +22,8 @@ import { Navigate, Route, Routes } from 'react-router';
 import UseMemo from './components/useMemo/UseMemo';
 import RefHooks from './components/useRef/RefHooks';
 import ReducerHook from './components/useReducer/ReducerHook';
-import WelcomeCSS from './components/Assignments/Assignment-04/WelcomeCSS';
+import InlineCSS from './components/Assignments/Assignment-04/08InlineCSS';
+import WelcomeCSS from './components/Assignments/Assignment-04/07WelcomeCSS';
 
 
 function App()  {
@@ -99,14 +95,16 @@ function App()  {
 
 
      {/* <Calculator/> */}
-     <WelcomeCSS/>
+     {/* <WelcomeCSS/> */}
      {/* <IterationArray />
       */}
       {/* <FruitClass /> */}
       {/* <CarsClass /> */}
       {/* <Person/> */}
       {/* <Pets /> */}
+      <InlineCSS/>
       {/* <Counter start= {1}/> */}
+
     </div>
   );
 }
