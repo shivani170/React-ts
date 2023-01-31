@@ -27,6 +27,7 @@ import { Navigate, Route, Routes } from 'react-router';
 import UseMemo from './components/useMemo/UseMemo';
 import RefHooks from './components/useRef/RefHooks';
 import ReducerHook from './components/useReducer/ReducerHook';
+import WelcomeCSS from './components/Assignments/Assignment-04/WelcomeCSS';
 
 
 function App()  {
@@ -50,6 +51,7 @@ function App()  {
         return <SecondCheck step={2} setStepLabel={setStepLabel}/>
     }
   }
+
   return (
     <div className="App">
 {/* <ReducerHook/> */}
@@ -96,7 +98,8 @@ function App()  {
 
 
 
-     <Calculator/>
+     {/* <Calculator/> */}
+     <WelcomeCSS/>
      {/* <IterationArray />
       */}
       {/* <FruitClass /> */}

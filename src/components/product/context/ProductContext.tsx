@@ -1,3 +1,5 @@
+import {ChangeEvent, createContext, useContext, useState} from 'react'
+
 type ProductContextProps ={
   children: JSX.Element
 }
@@ -19,7 +21,6 @@ type pContext ={
   productList: product[]
   changeInput?(): void
 }
-import {ChangeEvent, createContext, useContext, useState} from 'react'
 
 const ProductContextProps = createContext<pContext>({
   productList: []
