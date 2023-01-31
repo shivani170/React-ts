@@ -24,6 +24,7 @@ import ReducerHook from './components/useReducer/ReducerHook';
 import InlineCSS from './components/Assignments/Assignment-04/08InlineCSS';
 import WelcomeCSS from './components/Assignments/Assignment-04/07WelcomeCSS';
 import OrderPlaced from './components/Assignments/Assignment-01/OrderPlaced';
+import CalculatorComponent from './components/Assignments/Assignment-03/Calculator.component';
 
 
 function App()  {
@@ -95,6 +96,7 @@ function App()  {
 
 
      {/* <Calculator/> */}
+     <CalculatorComponent/>
 
      {/* <WelcomeCSS/> */}
      {/* <IterationArray />*/}
@@ -103,7 +105,7 @@ function App()  {
       {/* <Person/> */}
       {/* <Pets /> */}
       {/* <InlineCSS/> */}
-      <OrderPlaced/>
+      {/* <OrderPlaced/> */}
 
       {/* <Counter start= {1}/> */}
 

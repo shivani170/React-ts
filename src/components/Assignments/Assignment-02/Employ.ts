@@ -6,14 +6,13 @@ export default class Employ extends User implements UserType {
   salary: string;
   offliceTime: string
 
-  constructor(name: string,mobile: number,age: number, designation: string, offliceTime: string, salary: string){
-  super(name,age,mobile)
-  this.designation = designation
-  this.salary = salary
-  this.offliceTime = offliceTime
-}
-printEmploy = () => {
-  console.log(`Employ named : ${this.name}`)
-}
-
+  constructor(name: string, mobile: number, age: number, designation: string, offliceTime: string, salary: string) {
+    super(name, age, mobile)
+    this.designation = designation
+    this.salary = salary
+    this.offliceTime = offliceTime
+  }
+  printEmploy = () => {
+    console.log(`Employ named : ${this.name}`)
+  }
 }
