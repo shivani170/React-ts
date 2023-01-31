@@ -24,6 +24,7 @@ import RefHooks from './components/useRef/RefHooks';
 import ReducerHook from './components/useReducer/ReducerHook';
 import InlineCSS from './components/Assignments/Assignment-04/08InlineCSS';
 import WelcomeCSS from './components/Assignments/Assignment-04/07WelcomeCSS';
+import OrderPlaced from './components/Assignments/Assignment-01/OrderPlaced';
 
 
 function App()  {
@@ -95,14 +96,16 @@ function App()  {
 
 
      {/* <Calculator/> */}
+
      {/* <WelcomeCSS/> */}
-     {/* <IterationArray />
-      */}
+     {/* <IterationArray />*/}
       {/* <FruitClass /> */}
       {/* <CarsClass /> */}
       {/* <Person/> */}
       {/* <Pets /> */}
-      <InlineCSS/>
+      {/* <InlineCSS/> */}
+      <OrderPlaced/>
+
       {/* <Counter start= {1}/> */}
 
     </div>
