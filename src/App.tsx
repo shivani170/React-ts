@@ -11,7 +11,6 @@ import UserRegistration from './components/project/UserRegistration';
 import DisplayForm from './components/Assignments/Assignment-05/DisplayForm';
 import FirstCheck from './components/Assignments/Assignment-05/FirstCheck';
 import SecondCheck from './components/Assignments/Assignment-05/SecondCheck';
-import ThirdCheck from './components/Assignments/Assignment-05/ThirdCheck';
 import { useUserFormContext } from './components/Assignments/Assignment-05/context/UserFormContext';
 import EditProduct from './components/Assignments/Assignment-06/EditProduct';
 import NavBar from './components/Assignments/Assignment-06/NavBar';
